@@ -1,0 +1,34 @@
+// Menu styles
+.menu
+  width 100%
+  text-align right
+  &__item-wrapper
+    position relative
+    display inline-block
+    list-style none
+  &__item
+    display: inline-block
+    padding 10px 15px
+    color #fff
+    text-decoration: none
+    font-size 1.4rem
+  &.__position-default
+    width 75%
+    vertical-align middle
+    display inline-block
+  &.__position-top
+    float left
+    height 30px
+    .menu__item-wrapper
+      text-transform uppercase
+    .menu__item
+      font-size 1rem
+      padding 10px 20px
+    &:before
+      content ''
+      display: block
+      background-color #27272b
+      opacity 0.4
+      height @height
+      position absolute
+      width 100%

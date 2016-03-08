@@ -1,0 +1,22 @@
+{
+  "name": "design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ruslan-molodyko <molodyko13@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-styl": "^1.1.0",
+    "gulp-stylus": "^2.3.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
