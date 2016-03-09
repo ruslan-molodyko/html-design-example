@@ -1,5 +1,5 @@
 # html-design-example
-I am trying to create html template for https://www.meteor.com/ use jade, stulus and gulp
+I am trying to create html template use jade, stulus and gulp
 
 Just run this in command line for start working:
 
