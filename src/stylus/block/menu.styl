@@ -6,29 +6,28 @@
     position relative
     display inline-block
     list-style none
+    padding 10px 15px
+    height 45px
+    &:last-child
+      padding-right 0
   &__item
     display: inline-block
-    padding 10px 15px
     color #fff
     text-decoration: none
     font-size 1.4rem
+    border-bottom-width 0
+    border-bottom-style solid
+    border-bottom-color #68f3c8
+    transition all .2s
+    &:hover
+      border-bottom-width 3px
+
   &.__position-default
     width 75%
     vertical-align middle
     display inline-block
-  &.__position-top
-    float left
-    height 30px
-    .menu__item-wrapper
-      text-transform uppercase
+  &.__position-footer
+    display inline-block
+    width 50%
     .menu__item
-      font-size 1rem
-      padding 10px 20px
-    &:before
-      content ''
-      display: block
-      background-color #27272b
-      opacity 0.4
-      height @height
-      position absolute
-      width 100%
+      color black

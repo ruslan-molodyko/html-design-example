@@ -1,7 +1,8 @@
 //- Menu items mixin
 mixin menu(items, classMenu)
-  div(class='menu', class=classMenu)
-    each link, textItem in items
-      li.menu__item-wrapper
-        a.menu__item.link.__link-menu(href=link)= textItem
-    block
+  .menu(class=classMenu)
+    .menu__wrapper
+      each link, textItem in items
+        li.menu__item-wrapper
+          a.menu__item.link.__link-menu(href=link)= textItem
+      block
