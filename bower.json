@@ -1,0 +1,34 @@
+{
+  "name": "design",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ruslan-molodyko <molodyko13@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ruslan-molodyko/html-design-example",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": ["css/font-awesome.css"]
+    }
+
+  }
+}

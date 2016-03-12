@@ -3,5 +3,5 @@
  */
 "use strict";
 
-var module1 = require('./module/module.js');
-console.log(module1);
+var app = require('angular').module('app', []);
+app.directive('testAttr', require('./module/test-directive'));

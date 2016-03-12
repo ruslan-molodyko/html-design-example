@@ -18,5 +18,10 @@
     "gulp-styl": "^1.1.0",
     "gulp-stylus": "^2.3.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6"
   }
 }
