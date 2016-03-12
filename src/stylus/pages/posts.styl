@@ -1,0 +1,63 @@
+$image-width = $article-content-width + (150 * 2)
+$dark-color = #f7f7f7
+
+.posts
+  padding-bottom 50px
+  &__content-wrapper
+    padding-bottom 20px
+    background-color white
+    position relative
+    &:after
+      z-index 10
+      position absolute
+      bottom -30px
+      left 50%
+      width 60px
+      height 60px
+      content ' '
+      transform translateX(-50%)
+      border-radius 50%
+      background url(/assets/image/leaf.png) center center no-repeat
+      background-color $dark-color
+    &:last-child:after
+      display none
+    &:nth-child(2n)
+      background-color $dark-color
+      .posts__content
+        background-color: $dark-color
+      &:after
+        background-color #fff
+    .posts__title
+      text-align center
+      position relative
+      z-index 2
+      padding-top 60px
+      margin-bottom -40px
+    .posts__image
+      max-width $image-width
+      margin auto
+    .posts__content
+      background-color #fff
+      position relative
+      z-index 4
+      margin auto
+      width $article-content-width + (80 * 2)
+      font-family 'Droid Sans Mono', serif
+      font-size 1.3rem
+      line-height 2.3rem
+      padding 50px
+      margin-top -50px
+    .posts__text
+      text-align center
+    .posts__comment-link
+      vertical-align middle
+      text-align right
+      .posts__comment-link__icon
+        padding-right 5px
+    .posts__categories
+      vertical-align middle
+      text-align left
+    .posts__link-spot
+      margin 40px 0
+      text-align center
+
